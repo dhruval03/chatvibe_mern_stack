@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://chat-five-beryl.vercel.app",
+    origin: "http://localhost:5000",
     credentials: true,
   },
 });
