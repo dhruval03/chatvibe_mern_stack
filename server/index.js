@@ -33,7 +33,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: process.env.REACT_APP_SERVER_URL,
+    origin: "https://chatvibe-nine.vercel.app/",
     credentials: true,
   },
 });
