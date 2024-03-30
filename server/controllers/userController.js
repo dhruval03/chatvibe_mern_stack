@@ -83,3 +83,8 @@ module.exports.logOut = (req, res, next) => {
     next(ex);
   }
 };
+
+
+module.exports.hello = (req, res, next) => {
+  console.log("Hello");
+};
