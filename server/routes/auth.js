@@ -4,7 +4,7 @@ const {
   getAllUsers,
   setAvatar,
   logOut,
-  hello,
+  // hello,
 } = require("../controllers/userController");
 
 const router = require("express").Router();

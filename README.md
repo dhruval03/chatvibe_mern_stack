@@ -1,6 +1,4 @@
 # ChatVibe - Chat Application 
-ChatVibe is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
-
 
 ## Installation Guide
 
@@ -12,7 +10,7 @@ Both should be installed and make sure mongodb is running.
 
 ```shell
 git clone https://github.com/dhruval03/chatvibe_mern_stack.git
-cd chat-app-react-nodejs
+cd chatvibe_mern_stack
 ```
 
 Now install the dependencies
